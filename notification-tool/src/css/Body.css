@@ -1,0 +1,21 @@
+.container-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100dvw;
+    min-height: 100dvh;
+    /* background-color: rgb(198, 228, 255); */
+    background-image: url('../img/banana-brain.png');
+    background-repeat: repeat;
+    background-size: 300px 300px;
+
+}
+
+@keyframes slidein {
+    from { 
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 100%;
+    }
+  }
